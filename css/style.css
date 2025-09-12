@@ -1,0 +1,118 @@
+
+/* Body Style */
+body {
+    font-family: Arial, Verdana;
+    color: #FFFFFF;
+    background-color: #000000;
+    margin: 20px 20px 20px 0px; /* top, right, left, bottom */
+}
+
+/* H1 Heading */
+h1 {
+    font-size: 42px;
+    text-align: center;
+    padding: 15px 15px 15px 15px; /* top, right, left, bottom */
+}
+
+/* H2 Heading */
+h2 {
+    font-size: 30px;
+    color: #0D0D0D;
+}
+
+/* Paragraph */
+p {
+    font-size: 24px;
+    padding: 10px, 0px, 10px, 0px /* top, right, left, bottom */
+}
+
+/* Images */
+img {
+    width: 250px;
+    border: 10px dashed #FFFFFF; /* width, style, color */
+    /* Center images */
+    display: block;
+    margin: auto;
+    /*
+    display: flex;
+    justify-content: center;
+    */
+}
+
+/* Default Div */
+div {
+    min-height: 125px; /* 125 is minimum height */
+    padding: 20px 20px 20px 20px;
+    border: 3px solid #FFFFFF; /* width, style, color */
+}
+
+/* Introduction Class */
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    /* double spaced text */
+}
+
+/* Red Class */
+.red {
+    background-color: #FF0000;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom-width: 2px;
+    border-left-width: 5px;
+    /*border-right-width: none; */
+    /* border-top: none; */
+}
+
+/* Blue Div */
+.blue {
+    background-color: #0000FF;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px;
+    border-top: 2px;
+}
+
+/* Text in Blue Div */
+.blue > p, .blue > h2 {
+    color: #C4C4C4;
+}
+
+/* Yellow Div */
+.yellow {
+    background-color: #FFFF00;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px;
+    border-left: 5px;
+}
+
+/* Text in Yellow Div */
+.yellow > p {
+    color: #707070;
+}
+
+/* Green Div */
+.green {
+    background-color: #00D800;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px;
+    border-top: 2px;
+}
+
+/* Footer */
+footer {
+    /* Gradient code surce: cssgradient.io */
+    background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 255, 1) 25%, rgba(0, 102, 255, 1) 70%, rgba(0, 0, 0, 1) 100%);
+    border: 5px solid white; /*width, style, color*/
+}
+
+/* Text within footer */
+
+/* all paragraphs */
+footer > p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0px;
+}
